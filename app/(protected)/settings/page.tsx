@@ -32,7 +32,7 @@ import { useCurrentUser } from "@/hooks/use-current-user";
 import { FormError } from "@/components/form-error";
 import { FormSuccess } from "@/components/form-success";
 import { UserRole } from "@prisma/client";
-import { Value } from "@radix-ui/react-select";
+
 
 const SettingsPage = () => {
   const user = useCurrentUser();
